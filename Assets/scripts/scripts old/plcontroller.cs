@@ -17,7 +17,7 @@ public class plcontroller : MonoBehaviour
         Vector2 Inputdir = new Vector2(0,0);
         
         //if(Input.GetKey(KeyCode.W))
-            //Inputdir.y = 1;
+             //Inputdir.y = 1;
         Inputdir.x = Input.GetAxis("Horizontal");
         Inputdir.y = Input.GetAxis("Vertical");
 
